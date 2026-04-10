@@ -65,7 +65,7 @@ FamilyMemoryOS 是一个本地优先（local-first）、隐私优先（privacy-b
 
 ### 后端
 - 使用现有 Conda Python 3.10 环境
-- Python 版本：3.10.x
+- Python 版本：3.10
 - 当前基础依赖：
   - fastapi
   - uvicorn
@@ -76,8 +76,8 @@ FamilyMemoryOS 是一个本地优先（local-first）、隐私优先（privacy-b
   - aiofiles
 
 ### 前端
-- Node.js 18.x
-- npm 9.x
+- Node.js 18.15
+- npm 9.5
 - 前端预计使用：
   - Vue 3
   - TypeScript
@@ -272,8 +272,7 @@ Codex 在执行每个任务时，应按如下格式输出：
 2. 增加基础配置管理
 3. 定义核心数据模型
 4. 实现 Person CRUD
-5. 实现基础文本导入接口
-6. 为后续 MemorySegment 预留切块结构
+5. 为后续 MemorySegment 预留切块结构
 
 ---
 
